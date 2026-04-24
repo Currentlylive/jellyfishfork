@@ -704,7 +704,7 @@ progress::-webkit-progress-value  /* Filled part of the progress bar (WebKit) */
 }
 /* Adjusts the main page content on the dashboard to accommodate the static sidebar. */
 .layout-desktop .dashboardDocument .mainAnimatedPage {
-    left: 280px !important;
+    left: 260px !important;
 }
 
 .layout-desktop div#dashboardPage {
