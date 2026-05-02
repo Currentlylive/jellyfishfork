@@ -1005,25 +1005,14 @@ div.card-hoverable.squareCard.card {
 
 /* == Home Library Button Hover Effects == */
 /* Adds a border and dimming overlay to home library buttons on hover. */
-a.emby-button.homeLibraryButton.raised {
-    position: relative; /* For pseudo-element positioning */
-    box-sizing: border-box; /* Ensures padding and border are included in width/height */
-    border: 2px solid transparent; /* Transparent border by default to prevent layout shift on hover */
+#homeTab a.emby-button.homeLibraryButton.raised {
     transition: background-color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+    background: var(--primary-accent-color) !important;
+    border-radius: 18px !important;
 }
-a.emby-button.homeLibraryButton.raised:hover {
-    border-color: var(--primary-accent-color) !important; /* Accent border on hover */
-    background-color: rgba(255, 255, 255, 0.1) !important; /* Slight white highlight */
-}
-/* Dimming overlay for home library buttons on hover. */
-a.emby-button.homeLibraryButton.raised:hover::before {
-    content: "";
-    position: absolute;
-    top: 0; left: 0; right: 0; bottom: 0;
-    background-color: rgba(31, 31, 31, 0.2); /* Dark semi-transparent overlay */
-    z-index: 1; /* Above the button's background but below its text/icon */
-    transition: background-color 0.1s ease;
-    border-radius: 18px;
+#homeTab a.emby-button.homeLibraryButton.raised:hover {
+    background: var(--primary-accent-color) !important;
+    border-radius: 18px !important;
 }
 
 /* == List Item Image Styling == */
