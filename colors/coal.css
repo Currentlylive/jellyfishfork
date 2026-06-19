@@ -1,8 +1,8 @@
 /* Jellyfish Grey Theme */
 :root {
-    --primary-r: 150;
-    --primary-g: 110;
-    --primary-b: 180;
+    --primary-r: 169;
+    --primary-g: 169;
+    --primary-b: 169;
     --primary-accent-color: rgba(var(--primary-r), var(--primary-g), var(--primary-b), 1.0);
     --secondary-accent-color: rgba(var(--primary-r), var(--primary-g), var(--primary-b), 0.6);
     --primary-background-transparent: rgba(var(--primary-r), var(--primary-g), var(--primary-b), 0.1);
@@ -24,6 +24,3 @@
     --primary-alt4: rgba(calc(var(--primary-r) - 30), calc(var(--primary-g) - 30), calc(var(--primary-b) - 30), 0.55);
     --primary-alt5: rgba(calc(var(--primary-r) - 30), calc(var(--primary-g) - 30), calc(var(--primary-b) - 30), 0.4);
 }
-/* --primary-r: 169;
-    --primary-g: 169;
-    --primary-b: 169; */
