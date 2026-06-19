@@ -1,10 +1,10 @@
-/* Replace Logo with streamberry logo, this should be the last line in CSS */
+/* Lumina logo override - must be last CSS loaded */
 :root {
-    --logo: url("https://cdn.jsdelivr.net/gh/Currentlylive/jellyfishfork/logos/lumina.png");
+    --logo: url("https://raw.githubusercontent.com/Currentlylive/JellyfishFork/main/logos/lumina.png");
 }
 
 .pageTitleWithDefaultLogo {
-    background-size: 100% !important;
+    background-size: 100% !important;   
 }
 
 .layout-mobile .pageTitleWithDefaultLogo {
@@ -12,9 +12,9 @@
 }
 
 #loginPage .visualLoginForm:not(.hide) h1::before {
-  background-size: 50% !important;
+    background-size: 50% !important;
 }
 
 #loginPage .manualLoginForm:not(.hide) h1.sectionTitle::before {
-  background-size: 100% !important;
+    background-size: 100% !important;
 }
