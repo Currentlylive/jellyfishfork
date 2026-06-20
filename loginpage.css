@@ -94,7 +94,9 @@ body:has(#loginPage) .backdropContainer {
 /* Smooth Scale & Enhanced Glow on hover */
 #loginPage .squareCard:hover .cardImageContainer {
     transform: scale(0.98) !important;
-    box-shadow: none !important;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.4), 0 0 50px var(--primary-accent-color) !important;
+    border-radius: 50% !important;
+    overflow: hidden !important;
 }
 
 #loginPage .squareCard:focus-within .cardImageContainer {
