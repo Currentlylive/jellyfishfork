@@ -70,6 +70,21 @@ body:has(#loginPage) .backdropContainer {
     transition: 0.3s ease-in-out;
 }
 
+/* Force all avatar circles to the same size */
+#loginPage .squareCard .cardImageContainer {
+    width: 130px !important;
+    height: 130px !important;
+    border-radius: 50% !important;
+    overflow: hidden !important;
+}
+
+#loginPage .squareCard .cardImage {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    border-radius: 50% !important;
+}
+
 #loginPage .cardText {
     white-space: normal !important;
     font-weight: bold;
