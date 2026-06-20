@@ -22,3 +22,15 @@
     --primary-alt4: rgba(20, 20, 20, 0.55);
     --primary-alt5: rgba(20, 20, 20, 0.4);
 }
+
+/* ~~~~~~~~~~~~~~~~~~~~ BACKGROUND OVERRIDES ~~~~~~~~~~~~~~~~~~~~ */
+.backdropContainer,
+.backgroundContainer,
+.backgroundContainer.withBackdrop {
+    background-color: #181818 !important;
+}
+
+.libraryDocument.withSectionTabs .backgroundContainer {
+    backdrop-filter: blur(15px) brightness(.3) !important;
+    background-color: #181818 !important;
+}
