@@ -70,21 +70,6 @@ body:has(#loginPage) .backdropContainer {
     transition: 0.3s ease-in-out;
 }
 
-/* Force all avatar circles to the same size */
-#loginPage .squareCard .cardImageContainer {
-    width: 130px !important;
-    height: 130px !important;
-    border-radius: 50% !important;
-    overflow: hidden !important;
-}
-
-#loginPage .squareCard .cardImage {
-    width: 100% !important;
-    height: 100% !important;
-    object-fit: cover !important;
-    border-radius: 50% !important;
-}
-
 #loginPage .cardText {
     white-space: normal !important;
     font-weight: bold;
@@ -109,7 +94,7 @@ body:has(#loginPage) .backdropContainer {
 /* Smooth Scale & Enhanced Glow on hover */
 #loginPage .squareCard:hover .cardImageContainer {
     transform: scale(0.98) !important;
-    box-shadow: 0 0 15px rgba(255, 255, 255, 0.4), 0 0 50px var(--primary-accent-color) !important;
+    box-shadow: none !important;
 }
 
 #loginPage .squareCard:focus-within .cardImageContainer {
